@@ -8,22 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-Research: computational models of the progression of degenerative neurological diseases such as Alzheimer's and Parkinson's, based at University College London. <!-- Read more [here](/research/). -->
+**Research**: I co-lead the [POND](http://pond.cs.ucl.ac.uk) group with Danny Alexander in the [UCL Centre for Medical Image Computing](http://www.ucl.ac.uk/cmic). We build computational models to understand the progression of degenerative neurological diseases such as Alzheimer's and Parkinson's. My ORCiD is [0000-0003-0203-3909](https://orcid.org/0000-0003-0203-3909). <!-- Read more [here](/research/). -->
 
-Prior to this I worked on advanced object tracking algorithms, complex (dusty) plasma physics, and quantum filtering at the University of Liverpool. <!-- Publications from this work are listed [here](/dusty-plasma-papers). -->
+**Consulting**: for more agile R&D, and general medical data science needs, contact me at <a href="mailto:neil.oxtoby@toyboxline.com" style="color:#c5921e;">Toybox Science Ltd</a> (UK).
 
-Before Liverpool, I was researching quantum information 
-<!-- in the group of [Susana Huelga](https://www.uni-ulm.de/en/nawi/institut-fuer-theoretische-physik-start-page/prof-susana-f-huelga/)  -->
-at the University of Hertfordshire. 
-
-My ORCiD is [0000-0003-0203-3909](https://orcid.org/0000-0003-0203-3909).
-
-My scientific output is scattered across the Internet:
+My scientific output can be found in the usual places:
 
 - [arXiv](http://arxiv.org/a/oxtoby_n_1.html), [bioRxiv](https://www.biorxiv.org/search/author1%3ANeil%2BP.%2BOxtoby%2B), [medRxiv](https://www.medrxiv.org/search/author1%3ANeil%2BP.%2BOxtoby%2B)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Oxtoby+NP%5Bau%5D)
 - [Google Scholar](https://scholar.google.com/citations?user=uWfRPHEAAAAJ&hl=en&oi=ao).
 
+Other:
+
+- 2020–present: Data Science Lead, [DEMON](https://demondementia.com) Network.
+- Previous research:
+   - 2009–2012: Advanced object tracking algorithms, complex (dusty) plasma physics, and quantum filtering at the University of Liverpool. <!-- Publications from this work are listed [here](/dusty-plasma-papers). -->
+   - 2007–2009: Quantum information at the University of Hertfordshire <!-- in the group of [Susana Huelga](https://www.uni-ulm.de/en/nawi/institut-fuer-theoretische-physik-start-page/prof-susana-f-huelga/)  --> 
 
 <!-- Site-wide configuration
 ------
