@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Science by day"
+title                    : "Neil Oxtoby (science)."
 title_separator          : "-"
 name                     : &name "Neil Oxtoby"
-description              : &description "personal description"
-url                      : https://noxtoby.github.io/science # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Science by day.<br/>Music by night."
+url                      : "https://neiloxtoby.com/science" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "noxtoby/science"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "main" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Neil Oxtoby"
   avatar           : "flatwhitecool_small.jpeg" #"profile.png"
-  bio              : "Science by Day. Music by Night."
+  bio              : "Science by Day.<br/>Music by Night."
   location         : "UK"
   employer         : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Neil+P+Oxtoby"
