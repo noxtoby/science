@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Neil Oxtoby"
   avatar           : "flatwhitecool_small.jpeg" #"profile.png"
-  bio              : "Science by Day.<br/><a href='https://oxtobymusic.com' title='_blank'>Music</a> by Night."
+  bio              : "Science by Day.<br/><a href='https://oxtobymusic.com' target='_blank'>Music</a> by Night."
   location         : "UK"
   employer         : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Neil+P+Oxtoby"
