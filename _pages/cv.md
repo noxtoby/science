@@ -45,7 +45,9 @@ Skills
   * BIDS
   * Docker
 * Statistical Modelling / ML / AI
+  * Data-Driven Disease Progession Modelling
 * Coding
+  * Python (current), MATLAB (in a former life)
 
 Selected Publications (in progress)
 ======
@@ -55,15 +57,19 @@ Selected Publications (in progress)
 
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 Teaching
 ======
+<details>
+<summary>Click to see Teaching</summary>
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+</details>
 
 Service and leadership
 ======
