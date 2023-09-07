@@ -22,6 +22,7 @@ My scientific output can be found in the usual places:
 
 Other:
 
+- [Disease Progression Modelling Initiative](https://disease-progresion-modelling.github.io) (tutorials, etc.).
 - 2020–present: Data Science Lead, [DEMON](https://demondementia.com) Network.
 - Previous research:
    - 2009–2012: Advanced object tracking algorithms, complex (dusty) plasma physics, and quantum filtering at the University of Liverpool. <!-- Publications from this work are listed [here](/dusty-plasma-papers). -->
