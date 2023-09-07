@@ -3,7 +3,10 @@ permalink: /student-projects/
 title: "Available projects"
 excerpt: "Currently available student research projects"
 author_profile: true
-date: "2023-05-16"
+redirect_from: 
+  - "/student-projects/"
+  - "/student-projects.html"
+date: "2023-09-07"
 ---
 
 Here are some [POND](http://pond.cs.ucl.ac.uk) (disease progression modelling) student projects I have available. Contact me for more information.
@@ -63,7 +66,7 @@ This project will investigate one or all of the above, assessing performance aga
 MLAH: Machine Learning Accelerated Histopathology
 ======
 
-with Prof. Tammaryn Lashley (UCL ION Queen Square Brain bank)  
+with Prof. Tammaryn Lashley (UCL ION Queen Square Brain bank) <br/>
 and Dr Andre Altmann (UCL CMIC)
 
 **Background:**
@@ -94,8 +97,9 @@ In the current neuropathology workflow, brain tissue is sliced thinly (7µm), st
 
 MRI Precious: Deidentifying MRI using defacing algorithms — one algorithm to rule them all?
 ======
-with Zuzana Walker (UCL Psychiatry),  
-Dave Cash (UCL Dementia Research Centre),  
+
+with Zuzana Walker (UCL Psychiatry), <br/>
+Dave Cash (UCL Dementia Research Centre), <br/>
 Geoff Parker (UCL CMIC)
 
 **Background:**
@@ -111,7 +115,8 @@ Geoff Parker (UCL CMIC)
 
 **Suitable students will have keen interests in:**
 
-- Medical Image Computing, in particular involving MRI and neurodegenerative diseases like Alzheimer’s disease • Facial recognition
+- Medical Image Computing, in particular involving MRI and neurodegenerative diseases like Alzheimer’s disease
+- Facial recognition
 - ML for societal benefit
 - Having fun while doing multidisciplinary research
 
