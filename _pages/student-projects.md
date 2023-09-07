@@ -1,11 +1,9 @@
 ---
-permalink: /student-projects/
+layout: archive
 title: "Available projects"
+permalink: /student-projects/
 excerpt: "Currently available student research projects"
 author_profile: true
-redirect_from: 
-  - "/student-projects/"
-  - "/student-projects.html"
 date: "2023-09-07"
 ---
 
@@ -13,7 +11,7 @@ Here are some [POND](http://pond.cs.ucl.ac.uk) (disease progression modelling) s
 
 * * *
 
-DEM: Long-term biomarker trajectories from short-term data
+DEM: Differential Equation Models — long-term biomarker trajectories from short-term data
 ======
 
 Reconstruction of biomarker trajectories ideally requires dense longitudinal data collected over the full time-course of a chronic disease. Such data is not available due to the prohibitive expense and complexity of collection, which means that we must resort to alternative methods. In neurodegenerative diseases such as Alzheimer's, the availability of short-term longitudinal data of a few years permits estimation of an individual's rate of change over that time span, e.g., via linear regression. These short-interval longitudinal observations can be interpreted as noisy samples (segments) from an average biomarker trajectory. Instead of attempting to align the raw data segments, e.g., (Donohue et al., Alzheimer's & Dementia 2014), the differential equation modelling approach (Villemagne et al., The Lancet Neurology 2013; Oxtoby et al., LNCS 2014) generates a cross-section of differential data and a model fit: biomarker rate-of-change as a function of biomarker value, i.e., a differential equation model (DEM). For sufficient coverage across a range of biomarker values tracking disease progression, the fitted function can be integrated to produce a trajectory.
@@ -24,7 +22,7 @@ This project extends nonparametric DEM to the nontrivial multivariate case, and 
 
 * * *
 
-Power calculations for Data-Driven Disease Progession Models
+Power calculations for Data-Driven Disease Progression Models
 ======
 
 The event based model (EBM) is a generative statistical model for estimating a sequence of cumulative abnormality in a progressive process like a neurodegenerative disease. Invented at UCL in 2011, the EBM is widely used in clinical Neurology and other applications, becoming a popular tool in the arsenal of quantitative researchers worldwide. This has seen it included in prospective studies and grant applications, which typically require a statistical analysis plan including a traditional power/sample size calculation. 
