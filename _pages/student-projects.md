@@ -162,4 +162,4 @@ It is well known among experts that MRI scanners add non-random noise (bias) int
 
 A recent study from the Mayo Clinic in the USA ([Gebre, et al., NeuroImage 2023](https://doi.org/10.1016/j.neuroimage.2023.119912)) compared existing methods for harmonisation on a unique dataset and found none of the methods to be satisfactory. They included statistical approaches based on "regressing out" confounding variation, a basic image processing approach using image intensity, and deep learning models.
 
-This project aims to develop a novel harmonisation method that outperforms existing approaches for producing iamge-derived phenotypes (such as cortical thickness) relevant to disease progression modelling.
+This project aims to develop a novel harmonisation method that outperforms existing approaches for producing image-derived phenotypes (such as cortical thickness) relevant to disease progression modelling.
