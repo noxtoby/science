@@ -82,7 +82,7 @@ and Dr Andre Altmann (UCL CMIC)
 **Suitable students will have keen interests in:**
 
 - Machine learning & Medical Image Computing: segmentation, saliency mapping, multiclass classification, hacking code, deep learning
-- Neurodegenerative diseases like Alzheimer’s disease
+- Neurodegenerative diseases like Alzheimer's disease
 - Having fun while doing multidisciplinary research
 
 This project aims to revolutionise neuropathology by developing and validating an automated toolbox using machine learning (including deep learning) and medical image computing (including disease progression modelling). This will contribute to a line of work aiming to improve our understanding of the heterogeneity in dementias by linking knowledge from _in vivo_ brain scans with knowledge from _post mortem_ histopathology. 
@@ -113,7 +113,7 @@ Geoff Parker (UCL CMIC)
 
 **Suitable students will have keen interests in:**
 
-- Medical Image Computing, in particular involving MRI and neurodegenerative diseases like Alzheimer’s disease
+- Medical Image Computing, in particular involving MRI and neurodegenerative diseases like Alzheimer's disease
 - Facial recognition
 - ML for societal benefit
 - Having fun while doing multidisciplinary research
@@ -163,3 +163,18 @@ It is well known among experts that MRI scanners add non-random noise (bias) int
 A recent study from the Mayo Clinic in the USA ([Gebre, et al., NeuroImage 2023](https://doi.org/10.1016/j.neuroimage.2023.119912)) compared existing methods for harmonisation on a unique dataset and found none of the methods to be satisfactory. They included statistical approaches based on "regressing out" confounding variation, a basic image processing approach using image intensity, and deep learning models.
 
 This project aims to develop a novel harmonisation method that outperforms existing approaches for producing image-derived phenotypes (such as cortical thickness) relevant to disease progression modelling.
+
+
+* * *
+
+Vascular pathology and Parkinson's disease
+======
+
+Work in collaboration with Sarah Al-Bachari and others at the [UCL Queen Square Institute of Neurology](https://www.ucl.ac.uk/ion/ucl-queen-square-institute-neurology).
+
+Parkinson's disease (PD) is the second most common neurodegenerative disorder yet there are no disease modifying therapies available. PD is now rapidly being appreciated as a syndrome (collection of symptoms), encompassing significant heterogeneity in clinical measures and rates of progression, reflective of its complex and poorly understood biological basis, including effects of co-pathologies.
+
+Vascular abnormality has been demonstrated in PD, with evidence that vascular pathology is associated with disease progression, greater motor disability, and cognitive decline. It is not yet known whether vascular abnormality is an integral part of disease pathophysiology or more related to comorbidity.
+
+This project will involve analysing multimodal MRI and clinical symptom data to understand vascular pathology in PD cases and controls. Subsequently, advanced disease progression modelling approaches and large datasets will be employed to unravel the heterogeneity of vascular pathology in PD, e.g., using [SuStaIn](https://ucl-pond.github.io/pySuStaIn/) and [ENIGMA-PD](https://enigma.ini.usc.edu/ongoing/enigma-parkinsons/) data.
+
