@@ -125,7 +125,7 @@ Model comparison for clustering algorithms: how to choose the number of clusters
 
 Model comparison is an unsolved problem, but there are existing approaches that perform well under many circumstances. This project aims to help in situations where model comparison doesn't provide convincing/conclusive evidence that one model is superior to another — in particular, for clustering algorithms.
 
-In the context of disease progression modelling, clustering has been employed to estimate multiple disease progression sequences such as in the Subtype and Stage Inference algorithm, SuStaIn (Young, et al, Nature Communications 2018). SuStaIn analyses currently decide the number of subtypes using cross-validation via the cross-validation information criterion (CVIC) and test set log-likelihood. This project aims to augment/replace this with ideas base don information content, e.g., are the subtype progression patterns significantly different from each other (in a statistical sense)? Does the Nth subtype add information to the N-1 subtypes model? And other important questions.
+In the context of disease progression modelling, clustering has been employed to estimate multiple disease progression sequences such as in the Subtype and Stage Inference algorithm, SuStaIn (Young, et al, Nature Communications 2018). SuStaIn analyses currently decide the number of subtypes using cross-validation via the cross-validation information criterion (CVIC) and test set log-likelihood. This project aims to augment/replace this with ideas based on information content, e.g., are the subtype progression patterns significantly different from each other (in a statistical sense)? Does the Nth subtype add information to the N-1 subtypes model? And other important questions.
 
 * * *
 
@@ -147,7 +147,7 @@ From Analogue to Digital Radiology in a memory clinic: learning a mapping from a
 
 Work with the [UCL CODEC](https://ucl-codec.github.io) team, a joint NHS-UCL collaboration on memory clinic image computing.
 
-We have a collection of old analog brain scan film (CT and MRI) from deceased former patients at the NHS Essex Memory Clinic, and some accompanying radiological reports generated from expert human assessment of the analogue film. Some analogue scans also have digital DICOMs from which we can train a model to learn the physical-to-digital mapping — this is the primary aim of this project (we might take inspiration from [Ebner, *et al.*](https://doi.org/10.1016/j.neuroimage.2017.09.056)'s method and [code](https://github.com/gift-surg/VolumetricReconstructionFromPrintedFilms)).
+We have a collection of old analog brain scan film (CT and MRI) from deceased former patients at the NHS Essex Memory Clinic, and some accompanying radiological reports generated from expert human assessment of the analogue film. Some analogue scans also have digital DICOMs from which we can train a model to learn the physical-to-digital mapping — this is the primary aim of this project (we might take inspiration from [Michael Ebner](https://doi.org/10.1016/j.neuroimage.2017.09.056)'s method and [code](https://github.com/gift-surg/VolumetricReconstructionFromPrintedFilms)).
 
 The remaining analogue scans will be digitised using the trained model. Finally, quantitative neuroradiology reports will be generated from the digitised scans (perhaps in collaboration with the Quantitative Neuroradiology Initiative at UCL ([QNI](http://qni.cs.ucl.ac.uk/): e.g., [Goodkin, _et al._, 2019](https://pubmed.ncbi.nlm.nih.gov/31368776/), [Pemberton, _et al._, 2019](https://pubmed.ncbi.nlm.nih.gov/34476511/)), then compared with the human-generated reports.
 
@@ -158,7 +158,7 @@ Scan in Harmony: harmonisation of brain images from different scanners
 
 Work with the [UCL CODEC](https://ucl-codec.github.io) team, a joint NHS-UCL collaboration on memory clinic image computing.
 
-It is well known among experts that MRI scanners add non-random noise (bias) into brain scans. This confounds studies of brain ageing and [data-driven disease progression modelling](https://doi.org/10.1097/WCO.0000000000000460), which typically leverage large multisite datasets that use many different scanners, such as [ADNI](https://adni.loni.usc.edu).
+It is well known among experts that MRI scanners add non-random noise (bias) into brain scans. This confounds studies of brain ageing and [data-driven disease progression modelling](https://rdcu.be/dvstu), which typically leverage large multisite datasets that use many different scanners, such as [ADNI](https://adni.loni.usc.edu).
 
 A recent study from the Mayo Clinic in the USA ([Gebre, et al., NeuroImage 2023](https://doi.org/10.1016/j.neuroimage.2023.119912)) compared existing methods for harmonisation on a unique dataset and found none of the methods to be satisfactory. They included statistical approaches based on "regressing out" confounding variation, a basic image processing approach using image intensity, and deep learning models.
 
