@@ -9,7 +9,7 @@ location: "Montréal, Canada"
 ---
 
 
-It was my pleasure to be invited to present as part of the Dougla Research Centre's Cerebral Imaging Centre Lecture Series.
+It was my pleasure to be invited to present as part of the Douglas Research Centre's Cerebral Imaging Centre Lecture Series.
 
 Thanks to [Jana Totzek](https://www.linkedin.com/in/janatotzek/) for the invitation.
 
