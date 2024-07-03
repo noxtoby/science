@@ -10,7 +10,7 @@ Software: [MRtrix](http://mrtrix.readthedocs.io), [FSL](https://fsl.fmrib.ox.ac.
 
 If you've ever wondered how to get a nice mask for the eroded subcortical white matter region, read on. This is considered by many to be the holy grail of longitudinal PET SUVR reference regions.
 
-I recently had to do it myself when processing the [A05 data](https://doi.org/10.1093/brain/awz090) from AVID (an Eli Lilly subsidiary) --- so that we could validate results found with ADNI's SUVR data.
+I recently had to do it myself when processing the [A05 data](https://doi.org/10.1093/brain/awz090) from AVID (an Eli Lilly subsidiary) --- so that we could validate results found with [ADNI](http://adni.loni.usc.edu/)'s SUVR data.
 
 Prerequisites: an SUVR image using any reference region, and masks for Left and Right Cerebral White Matter (FreeSurfer aparc+aseg region numbers 2 and 41). To obtain these, I ran the [AmyPET](https://github.com/AMYPAD/AmyPET) centiloid pipeline, tweaked for FreeSurfer ROIs by Pawel Markiewicz and myself. This required FreeSurfer outputs (I used [this container](https://e-dads.github.io/tools/#freesurfer-711-bids-app-container) for version 7.1.1) and produces a static SUVR image for both whole cerebellum and cerebellar gray matter reference regions.
 
