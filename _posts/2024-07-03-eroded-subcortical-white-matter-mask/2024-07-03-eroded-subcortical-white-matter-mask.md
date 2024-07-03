@@ -8,7 +8,7 @@ categories:
 
 Software: [MRtrix](http://mrtrix.readthedocs.io), [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/)
 
-If you've ever wondered how to get a nice mask for the eroded subcortical white matter region, read on. This is considered by many to be the holy grail of longitudinal PET SUVR reference regions.
+If you've ever wondered how to get a nice mask for the eroded subcortical white matter region, and use it as a reference region in your SUVR analyses, then read on. This is considered by many to be the holy grail of longitudinal PET SUVR reference regions.
 
 I recently had to do it myself when processing the [A05 data](https://doi.org/10.1093/brain/awz090) from AVID (an Eli Lilly subsidiary) --- so that we could validate results found with [ADNI](http://adni.loni.usc.edu/)'s SUVR data.
 
@@ -22,7 +22,7 @@ All that's left is to calculate the mean SUVR (for either of those reference reg
 
 Here's how I generated the eroded subcortical white matter mask, following ADNI's approach to eroding cerebral white matter. This is from [Landau et al., 2015](https://doi.org/10.2967/jnumed.114.148981) and is described in ADNI's document [UCBERKELEY_AV1451_Methods_11.15.2021.pdf](https://ida.loni.usc.edu/download/files/study/c579d960-27e8-4c6f-964c-eefca4ca513b/file/adni/UCBERKELEY_AV1451_Methods_11.15.2021.pdf):
 
-#### Step 0: Create the (non-eroded) subcortical white matter ROI
+### Step 0: Create the (non-eroded) subcortical white matter ROI
 
 For convenience:
 ```
@@ -41,7 +41,7 @@ subj=bert
 ${freesurfer_dir}/bin/mri_binarize --i ${freesurfer_dir}/subjects/${subj}/mri/aparc+aseg.mgz --match 2 41 --o ${mask}
 ```
 
-#### Step 1: Smooth the FreeSurfer WM mask
+### Step 1: Smooth the FreeSurfer WM mask
 
 ADNI uses 8mm-isotropic FWHM smoothing, which I implemented in [MRtrix](http://mrtrix.readthedocs.io):
 
@@ -50,7 +50,7 @@ fwhm=8
 mrfilter -fwhm $fwhm $mask smooth $mask_smoothed
 ```
 
-#### Step 2: Threshold at 0.7
+### Step 2: Threshold at 0.7
 
 ```
 thresh=0.7
@@ -59,7 +59,7 @@ mrthreshold -abs $thresh $mask_smoothed $mask_eroded
 mrview $suvr_image --overlay.load $mask_eroded
 ```
 
-#### Step 3: Calculate Holy Grail SUVR
+### Step 3: Calculate Holy Grail SUVR
 
 Uses `fslstats`:
 ```
