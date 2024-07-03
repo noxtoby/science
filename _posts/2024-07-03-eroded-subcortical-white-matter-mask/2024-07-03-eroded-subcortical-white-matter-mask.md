@@ -28,8 +28,8 @@ For convenience:
 ```
 topf=.
 mask=${topf}/mask_freesurfer_regions_2_41.nii.gz
-out_mask_smoothed=$(dirname $mask)/$(basename $mask .nii.gz)-smoothed.nii.gz
-out_mask_final=$(dirname $out_mask_smoothed)/$(basename $out_mask_smoothed .nii.gz)-eroded.nii.gz
+mask_smoothed=$(dirname $mask)/$(basename $mask .nii.gz)-smoothed.nii.gz
+mask_eroded=$(dirname $mask_smoothed)/$(basename $mask_smoothed .nii.gz)-eroded.nii.gz
 suvr_image=${topf}/suvr.nii.gz
 ```
 
@@ -47,16 +47,16 @@ ADNI uses 8mm-isotropic FWHM smoothing, which I implemented in [MRtrix](http://m
 
 ```
 fwhm=8
-mrfilter -fwhm $fwhm $mask smooth $out_mask_smoothed
+mrfilter -fwhm $fwhm $mask smooth $mask_smoothed
 ```
 
 #### Step 2: Threshold at 0.7
 
 ```
 thresh=0.7
-mrthreshold -abs $thresh $out_mask_smoothed $out_mask_final
+mrthreshold -abs $thresh $mask_smoothed $mask_eroded
 # Have a look
-mrview $suvr_image --overlay.load $out_mask_final
+mrview $suvr_image --overlay.load $mask_eroded
 ```
 
 #### Step 3: Calculate Holy Grail SUVR
@@ -64,5 +64,5 @@ mrview $suvr_image --overlay.load $out_mask_final
 Uses `fslstats`:
 ```
 # Mean only
-fslstats $suvr_image -k $out_mask_final -m
+fslstats $suvr_image -k $mask_eroded -m
 ```
