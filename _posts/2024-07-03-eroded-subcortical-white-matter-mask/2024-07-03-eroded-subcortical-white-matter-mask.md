@@ -17,6 +17,7 @@ Prerequisites: an SUVR image using any reference region, and masks for Left and 
 All that's left is to calculate the mean SUVR (for either of those reference regions) within the eroded subcortical white matter ROI. Various papers have used such a reference region, showing that it's the best for longitudinal studies in both amyloid and tau PET:
 
 - [Landau et al., 2015](https://doi.org/10.2967/jnumed.114.148981)
+- [Chen et al., 2015](https://doi.org/10.2967/jnumed.114.149732)
 - [Lowe, et al., 2018](https://doi.org/10.2967/jnumed.117.204271)
 
 Here's how I generated the eroded subcortical white matter mask, following ADNI's approach to eroding cerebral white matter. This is from [Landau et al., 2015](https://doi.org/10.2967/jnumed.114.148981) and is described in ADNI's document [UCBERKELEY_AV1451_Methods_11.15.2021.pdf](https://ida.loni.usc.edu/download/files/study/c579d960-27e8-4c6f-964c-eefca4ca513b/file/adni/UCBERKELEY_AV1451_Methods_11.15.2021.pdf):
