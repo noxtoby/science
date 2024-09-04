@@ -7,7 +7,8 @@ venue: 'UCL'
 ---
 Student: Beatrice Taylor
 
-Thesis: Disease progression modelling in the rarer dementias (ETA 2024)<br/>
+Thesis: Disease progression modelling in the rarer dementias<br/>
+Submitted Sep 2024
 
 Primary Supervisor: Neil Oxtoby<br/>
 Secondary Supervisor: Chris Hardy (DRC)<br/>
