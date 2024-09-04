@@ -7,8 +7,9 @@ venue: 'UCL'
 ---
 Student: Anna Schroder
 
-Thesis: A Framework for Pathology-Informed Optimisation of the Tractography-Estimated Structural Connectome (ETA 2024)<br/>
+Thesis: A Framework for Pathology-Informed Optimisation of the Tractography-Estimated Structural Connectome<br/>
+Defended 2024<br/>
 
 Primary Supervisor: Danny Alexander<br/>
-Secondary Supervisor: Jonathan Schott (DRC)<br/>
+Secondary Supervisor: Jon Schott (DRC)<br/>
 Subsidiary: Neil Oxtoby
