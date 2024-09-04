@@ -8,6 +8,7 @@ venue: 'UCL'
 Student: Kiran Samra
 
 Thesis: Defining the stages of presymptomatic frontotemporal dementia<br/>
+Defended Sep 2024<br/>
 
 Primary Supervisor: Jonathan Rohrer (DRC)<br/>
 Secondary Supervisor: Neil Oxtoby<br/>
