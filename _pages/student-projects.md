@@ -4,10 +4,38 @@ title: "Available projects"
 permalink: /student-projects/
 excerpt: "Currently available student research projects"
 author_profile: true
-date: "2023-09-07"
+date: "2024-10-23"
 ---
 
 Here are some [POND](http://pond.cs.ucl.ac.uk) (disease progression modelling) student projects I have available. Contact me for more information.
+
+* * *
+
+ARIA detection for Alzheimer's disease
+======
+
+with Prof. Frederik Barkhof (UCL Hawkes Institute, UCL Queen Square Institute of Neurology, Amsterdam UMC)
+
+Amyloid-Related Imaging Abnormalities (ARIA) are side-effects of the latest disease-modifying therapies in Alzheimer's disease. There is global interest in developing AI-based solutions for detection (diagnosis) and prediction of ARIA, with the goals of improving safety and efficiency of clinical trials, and for deployment in clinical decision support as these new drugs reach the frontline of healthcare. 
+
+This project aims to train a useful “AI model” for detecting and/or predicting ARIA. Training data would consist of MRI data from multiple studies that has been organised by the POND group. The Testing data we have in mind is from the [Bapineuzimab](https://www.alzforum.org/therapeutics/bapineuzumab) clinical trials, for which the primary supervisor has remote access via the [YODA project](https://yoda.yale.edu/).
+
+Further reading:
+
+- [Sperling et al., Alzheimer's & Dementia (2011)](https://doi.org/10.1016/j.jalz.2011.05.2351)
+- [icobrain aria](https://icometrix.com/services/icobrain-aria): [Sima, et al., JAMA Network Open (2024)](https://doi.org/10.1001/jamanetworkopen.2023.55800)
+
+* * *
+
+Subtype and Stage Inference (SuStaIn) for the real world
+======
+
+with Zuzana Walker (UCL Psychiatry) and the [UCL CODEC](https://ucl-codec.github.io) team.
+
+[SuStaIn](https://ucl-pond.github.io/pySuStaIn/) ([Young et al., 2018](https://doi.org/10.1038/s41467-018-05892-0)) is a merging of data-driven disease progression modelling (https://rdcu.be/dvstu) and unsupervised machine learning to uniquely unravel the heterogeneity of chronic diseases in both space and time. Research studies on SuStaIn in dementia-causing neurodegenerative diseases to date have been unimodal (for example, input features derived from a single modality of medical imaging), but real-world dementia healthcare involves multiple modalities.
+
+In this project, the student will use multimodal imaging features designed to be suitable for a typical dementia care pathway in the NHS. This will include processing some data (using existing pipelines) and performing some feature selection, then training a healthcare-ready SuStaIn model. Training data comes from observational clinical research studies available to the POND group. Testing data will include real-world healthcare data from the Essex Memory Clinic.
+
 
 * * *
 
@@ -64,8 +92,8 @@ This project will investigate one or all of the above, assessing performance aga
 MLAH: Machine Learning Accelerated Histopathology
 ======
 
-with Prof. Tammaryn Lashley (UCL ION Queen Square Brain bank) <br/>
-and Dr Andre Altmann (UCL CMIC)
+with Prof. Tammaryn Lashley (UCL Queen Square Institute Of Neurology Brain bank) <br/>
+and Assoc. Prof. Andre Altmann (UCL Hawkes Institute)
 
 **Background:**
 
@@ -97,8 +125,8 @@ MRI Precious: Deidentifying MRI using defacing algorithms — one algorithm to r
 ======
 
 with Zuzana Walker (UCL Psychiatry), <br/>
-Dave Cash (UCL Dementia Research Centre), <br/>
-Geoff Parker (UCL CMIC)
+Dave Cash (UCL Queen Square Dementia Research Centre), <br/>
+Geoff Parker (UCL Hawkes Institute)
 
 **Background:**
 
@@ -170,7 +198,7 @@ This project aims to develop a novel harmonisation method that outperforms exist
 Vascular pathology and Parkinson's disease
 ======
 
-Work in collaboration with Sarah Al-Bachari and others at the [UCL Queen Square Institute of Neurology](https://www.ucl.ac.uk/ion/ucl-queen-square-institute-neurology).
+with Sarah Al-Bachari and others at the [UCL Queen Square Institute of Neurology](https://www.ucl.ac.uk/ion/ucl-queen-square-institute-neurology).
 
 Parkinson's disease (PD) is the second most common neurodegenerative disorder yet there are no disease modifying therapies available. PD is now rapidly being appreciated as a syndrome (collection of symptoms), encompassing significant heterogeneity in clinical measures and rates of progression, reflective of its complex and poorly understood biological basis, including effects of co-pathologies.
 
