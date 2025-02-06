@@ -19,9 +19,9 @@ Education
 Work experience
 ======
 
-* 2020—2023: **Principal** Research Fellow
+* 2020—2025: **Principal** Research Fellow
    * University College London, UK
-   * UKRI Future Leaders Fellow (2020–2026)
+   * UKRI Future Leaders Fellow (2020–2027)
 * 2016—2019: **Senior** Research Associate / [EuroPOND](http://europond.eu) Scientific Manager (EU Horizon 2020)
    * University College London, UK
    * Manager: Danny Alexander
@@ -49,6 +49,7 @@ Skills
    * Data-Driven Disease Progession Modelling
 * Coding
    * Python (current), MATLAB (in a former life)
+* Vocals, Guitar
 
 Selected Publications (in progress)
 ======
