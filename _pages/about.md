@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 **Research**:<br/>
-I co-lead the [POND](http://pond.cs.ucl.ac.uk) group with Danny Alexander in the [UCL Centre for Medical Image Computing](http://www.ucl.ac.uk/cmic). We build computational models (e.g., Event Based Models, SuStaIn, *et al.*) to understand the progression of degenerative neurological diseases such as Alzheimer's and Parkinson's. <br/><br/>My ORCiD is [0000-0003-0203-3909](https://orcid.org/0000-0003-0203-3909). <!-- Read more [here](/research/). -->
+I co-lead the [POND](http://pond.cs.ucl.ac.uk) group with Alex Young and Danny Alexander in the UCL Hawkes Institute (formerly the [UCL Centre for Medical Image Computing](http://www.ucl.ac.uk/cmic)). We build computational models (e.g., Event Based Models, SuStaIn, *et al.*) to understand the progression of degenerative neurological diseases such as Alzheimer's and Parkinson's. <br/><br/>My ORCiD is [0000-0003-0203-3909](https://orcid.org/0000-0003-0203-3909). <!-- Read more [here](/research/). -->
 
 **Consulting**:<br/>
 For more agile R&D, and general medical data science needs, I'm available to consult via Toybox Science Ltd (UK). <a href="mailto:neil.oxtoby@toyboxline.com" style="color:#c5921e;">Email me</a>.
