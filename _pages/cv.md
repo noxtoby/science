@@ -88,6 +88,7 @@ Service and leadership
 ======
 
 * Active
+   * Community resources at [pondmodels.net](https://pondmodels.net)
    * Since 2021: Disease Progression Modelling resources at [disease-progression-modelling.github.io](https://disease-progression-modelling.github.io)
    * Since 2020: UCL Department of Computer Science Research Ethics Committee (CSREC)
    * Since 2019: DEMON Network Data Science Lead
@@ -97,6 +98,7 @@ Service and leadership
       * [POND 2018](http://europond.eu/pond2018)
       * [CompAge 2020](https://neuroinformatics.icm-institute.org/conferences/compage-2020/)
       * [POND 2022](https://pond2022.com)
+      * [POND 2024](https://pond2024.pondmodels.net)
 * Past
    * 2022: Outreach at Pint of Science (talk) and Bloomsbury Festival (exhibition)
    * 2021: UCL Medical Image Computing Summer School ([MedICSS](https://medicss.cs.ucl.ac.uk/programme-2021/))
