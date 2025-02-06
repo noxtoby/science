@@ -5,8 +5,6 @@ permalink: /students/2024/1-gonzalo-castro
 date: 01/03/2024
 venue: 'UCL'
 ---
-Student: Gonzalo Castro Leal
-
 Thesis: Real-world differential diagnosis of dementias using disease progression modelling<br/>
 Started Mar 2024
 
