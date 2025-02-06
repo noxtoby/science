@@ -5,8 +5,6 @@ permalink: /students/2020/3-isaac-llorente-saguer
 date: 01/12/2020
 venue: 'UCL'
 ---
-Student: Isaac Llorente Saguer
-
 Thesis: Towards understanding Alzheimer's disease mechanisms using data-driven approaches<br/>
 Started Dec 2020
 

@@ -5,8 +5,6 @@ permalink: /students/2021/1-beatrice-taylor
 date: 02/02/2021
 venue: 'UCL'
 ---
-Student: Beatrice Taylor
-
 Thesis: Disease progression modelling in the rarer dementias<br/>
 Defended Oct 2024<br/>
 [Download here](https://discovery.ucl.ac.uk/id/eprint/10201091/)

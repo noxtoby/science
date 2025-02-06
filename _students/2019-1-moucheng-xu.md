@@ -5,8 +5,6 @@ permalink: /students/2019/1-moucheng-xu
 date: 01/10/2019
 venue: 'UCL'
 ---
-Student: Moucheng Xu
-
 Thesis: Deep Learning with Limited Labels for Medical Imaging<br/>
 Defended June 2023<br/>
 [Download here](https://discovery.ucl.ac.uk/id/eprint/10173752/)

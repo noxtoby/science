@@ -5,8 +5,6 @@ permalink: /students/2014/1-razvan-marinescu
 date: 01/10/2014
 venue: 'UCL'
 ---
-Student: Razvan Marinescu
-
 Thesis: Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy<br/>
 Defended 2019<br/>
 [Download here](https://discovery.ucl.ac.uk/id/eprint/10087438/)
