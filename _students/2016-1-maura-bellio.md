@@ -1,7 +1,7 @@
 ---
 title: "2016: Maura Bellio"
 collection: students
-permalink: /students/30/0-1-maura-bellio
+permalink: /students/2016/1-maura-bellio
 date: 30/09/2016
 venue: 'UCL'
 ---

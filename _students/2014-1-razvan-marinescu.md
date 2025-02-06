@@ -1,7 +1,7 @@
 ---
 title: "2014: Razvan Marinescu"
 collection: students
-permalink: /students/01/1-1-razvan-marinescu
+permalink: /students/2014/1-razvan-marinescu
 date: 01/10/2014
 venue: 'UCL'
 ---
