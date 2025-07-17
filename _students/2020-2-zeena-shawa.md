@@ -5,8 +5,10 @@ permalink: /students/2020/2-zeena-shawa
 date: 01/10/2020
 venue: 'UCL'
 ---
+
 Thesis: Modelling Heterogeneity in Neurodegenerative Disease with MRI<br/>
-Started Oct 2020
+Started Oct 2020<br/>
+Defended Jul 2025
 
 Primary Supervisor: Neil Oxtoby<br/>
 Secondary Supervisor: Rimona Weil (DRC)<br/>
